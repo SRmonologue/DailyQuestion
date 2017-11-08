@@ -33,6 +33,6 @@ def fib(n):
 def each_item(items):
     for item in range(1, items + 1):
         print('%d,' % fib(item), end='')
-        print('......')
+    print('......')
 
 print(each_item(10))
